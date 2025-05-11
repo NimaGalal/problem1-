@@ -19,13 +19,15 @@ public:
         if (topIndex < MAX_SIZE - 1) {
             topIndex++;
             data[topIndex] = value;
-        }
+            }
+        
     }
 
     void pop() {
         if (!isEmpty()) {
             topIndex--;
         }
+    
     }
 
     string top() {
